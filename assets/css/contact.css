@@ -1,0 +1,172 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+  color: #333;
+  line-height: 1.7;
+}
+
+.section {
+  margin-bottom: 70px;
+  /* margin-top: 30px; */
+}
+.hero-tittle {
+  text-align: center;
+  margin: 106px 0 40px;
+}
+
+.hero-tittle h1 {
+  font-size: 3rem;        /* Bigger, bold title */
+  color: #264653;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.hero-tittle p {
+  font-size: 1.3rem;      /* Slightly bigger paragraph */
+  color: #555;
+  max-width: 800px;       /* Limit line length for readability */
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+h1 {
+  font-size: 2.4rem;
+  color: #264653;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #264653;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 25px;
+}
+#contact-box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 30px;
+}
+.form-container{
+  background-color: white;
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+.contact-info div, 
+.form-group {
+  margin-bottom: 18px;
+  font-size: 1.05rem;
+}
+
+.contact-info i {
+  color: #9b5ca1;
+  margin-right: 10px;
+}
+
+form input, 
+form select, 
+form textarea {
+  width: 100%;
+  padding: 14px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1.05rem;
+  transition: all 0.2s ease;
+}
+
+form input:focus, 
+form select:focus, 
+form textarea:focus {
+  border-color: #264653;
+  outline: none;
+  box-shadow: 0 0 6px rgba(38,70,83,0.3);
+}
+
+form button {
+  background-color: #264653;
+  color: white;
+  border: none;
+  padding: 16px 30px;
+  font-size: 1.05rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #d62828;
+}
+
+.social-icons {
+  text-align: center;
+}
+  .social-icons a {
+color: teal;
+background: none;
+  font-size: 2rem;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  padding: 3px;
+}
+footer .social-icons a {
+  background: none;
+   color: wheat;
+    font-size: 2rem;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #d62828;
+}
+
+/* === MOBILE OPTIMIZATION === */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .contact-info, 
+  .form-container, 
+  .social-icons {
+    padding: 25px;
+    margin: 15px;
+  }
+
+  form input, 
+  form select, 
+  form textarea {
+    font-size: 1rem;
+    padding: 12px;
+  }
+
+  form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.05rem;
+  }
+
+  .social-icons a {
+    font-size: 1.8rem;
+    margin: 0 10px;
+  }
+}

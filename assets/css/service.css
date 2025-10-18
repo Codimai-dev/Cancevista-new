@@ -1,0 +1,235 @@
+:root {
+  /* Brand Colors */
+  --primary: #2a9d8f;      /* Teal Blue */
+  --secondary: #e76f51;    /* Warm Orange */
+  --yellow: #e9c46a;       /* Soft Yellow */
+  --purple: #423e85;       /* Deep Purple */
+  --cream: #f4f1de;
+  --muted: #6b6b6b;
+  --head: #264653;
+  --card: #ffffff;
+
+  --radius: 20px;
+  --shadow: 0 6px 20px rgba(0,0,0,0.08);
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: var(--cream);
+  color: var(--muted);
+  line-height: 1.8;
+}
+
+/* Services Section */
+.services-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 30px;
+}
+#service-hero{
+  background-image: url('../images/service-hero.webp');
+  background-size: cover;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+#service-hero p{
+    color: white;
+}
+#service-hero .service-card{
+  background-color: rgba(0, 0, 0, 0.384);
+}
+/* Service Card */
+.service-card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding: 60px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+  margin: 40px 0;
+}
+.service-card h3{
+  color: var(--secondary);
+}
+.service-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Header */
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 25px;
+}
+.service-header .img img{
+  max-width: 400px;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.service-icon {
+  flex-shrink: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: #9b5ca1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--card);
+  font-size: 3rem;
+  box-shadow: 0 8px 16px rgba(42,157,143,0.3);
+}
+
+.service-header h2 {
+  background-color: var(--secondary);
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 2.2rem;
+  margin: 0;
+  color: var(--head);
+}
+
+.service-header h3 {
+   background-color: var(--secondary);
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 8px 0 0;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+/* Content */
+.service-content p {
+  margin-bottom: 18px;
+  font-size: 1.15rem;
+}
+
+.service-content h3 {
+  width: fit-content;
+   background-color: var(--secondary);
+  padding: 3px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  color: var(--head);
+}
+
+.service-content ul {
+  margin: 18px 0;
+  padding-left: 25px;
+}
+
+.service-content ul li {
+  margin-bottom: 12px;
+  position: relative;
+  padding-left: 22px;
+  font-size: 1.05rem;
+}
+
+blockquote {
+  margin: 30px 0;
+  padding: 25px;
+  background: #f9f9f9;
+  border-left: 6px solid var(--primary);
+  border-radius: 10px;
+  font-style: italic;
+  color: var(--head);
+  font-size: 1.1rem;
+}
+
+blockquote span {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Button */
+.cta-button {
+  display: inline-block;
+  margin-top: 25px;
+  background: var(--secondary);
+  color: #fff;
+  padding: 14px 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.05rem;
+  transition: background 0.3s;
+}
+
+.cta-button:hover {
+  background: #c6543f;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .service-card {
+    padding: 50px 30px;
+  }
+
+  .service-header h2 {
+    font-size: 2rem;
+  }
+
+  .service-icon {
+    width: 100px;
+    height: 100px;
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .service-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+  }
+
+  .service-card {
+    padding: 40px 20px;
+  }
+
+  .service-header h2 {
+    font-size: 1.8rem;
+  }
+
+  .service-header h3 {
+    font-size: 1.1rem;
+  }
+
+  .service-icon {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+
+  .service-content p {
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .service-card {
+    padding: 30px 16px;
+  }
+
+  .service-header h2 {
+    font-size: 1.6rem;
+  }
+
+  .service-content p,
+  .service-content ul li {
+    font-size: 0.95rem;
+  }
+}
