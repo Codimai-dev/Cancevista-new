@@ -467,7 +467,7 @@ footer {
                 text-align: center;
             }
             .footer-column {
-                margin: 20px 0;
+                margin: 5px 0 2px;
             }
             .action-button{
       flex-direction: column;
@@ -475,6 +475,9 @@ footer {
         }
         action-button a{
       width: 100px;
+        }
+        .footer-column ul{
+          grid-template-columns: 1fr;
         }
         }
 /* ===== Simple Scroll Animations ===== */
