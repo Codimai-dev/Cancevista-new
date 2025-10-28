@@ -70,7 +70,7 @@ h2 {
 }
 
 .contact-info i {
-  color: #9b5ca1;
+  color: var();
   margin-right: 10px;
 }
 

@@ -133,7 +133,6 @@ body {
 .stat-card i {
   font-size: 36px;
   color: var(--secondary);
-  color: #9b5ca1;
   padding: 18px;
   border-radius: var(--radius);
 }
@@ -169,7 +168,7 @@ body {
 .step i {
   font-size: 34px;
   color: #fff;
-  background: #9b5ca1;
+  background: var(--secondary);
   padding: 18px;
   border-radius: var(--radius);
   margin-bottom: 14px;
@@ -209,7 +208,6 @@ body {
   font-size: 34px;
   color: var(--secondary);
   background: rgba(233, 196, 106, 0.15);
-  color: #9b5ca1;
   padding: 16px;
   border-radius: var(--radius);
   margin-bottom: 14px;

@@ -97,7 +97,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  background: #9b5ca1;
+  background: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: center;

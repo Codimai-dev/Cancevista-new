@@ -121,7 +121,7 @@ p {
 }
 .gap-stats li i {
   font-size: 1.5rem;
-  color: #9b5ca1;
+ color: var(--secondary);
 }
 .gap-stats li:hover {
   transform: translateY(-4px);
@@ -138,7 +138,7 @@ p {
 }
 .mv-grid i {
   font-size: 2.6rem;
-  color: #9b5ca1;
+  color: var(--secondary);
   margin-bottom: 14px;
 }
 .mv-grid h3 {
@@ -176,7 +176,7 @@ p {
 }
 .values-list i {
   font-size: 1.8rem;
-  color: #9b5ca1;
+  color: var(--secondary);
 }
 .values-list p {
   text-align: justify;
