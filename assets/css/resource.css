@@ -1,5 +1,5 @@
 .download-guides {
-    background-color: var(--cream);
+    background-color: rgba(255, 111, 54,0);
     padding: 80px 3px;
   }
   
@@ -21,7 +21,7 @@
     padding: 40px;
   }
   .guide-content{
-    background-color:rgb(248, 232, 255);
+    background-color:pink;
     padding: 20px;
     border-radius: 10px;
   }
@@ -94,7 +94,7 @@
   }
   
   .blog-section {
-    background-color: var(--cream);
+    background-color: rgba(255, 111, 54,0);
     padding: 80px 20px;
     text-align: center;
   }
@@ -191,7 +191,7 @@
     background: var(--secondary);
   }
   .support-section {
-    background-color: #fff;
+    background-color: rgba(255, 111, 54,0);
     padding: 80px 20px;
     text-align: center;
   }

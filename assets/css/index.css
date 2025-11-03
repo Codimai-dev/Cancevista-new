@@ -112,7 +112,7 @@ body {
 /* Stats */
 .stats {
   padding: 70px 20px;
-  background: linear-gradient(180deg, #fff, #f7f7f7);
+  background-color: rgba(255, 111, 54,0.0);
 }
 .stats-grid {
   display: grid;
